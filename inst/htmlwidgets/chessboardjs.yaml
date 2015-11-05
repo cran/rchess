@@ -1,0 +1,20 @@
+dependencies:
+  - name: jquery
+    version: 1.11.0
+    src: "htmlwidgets/lib"
+    script: jquery.min.js
+  - name: chessjs
+    version: 0.9.1
+    src: "htmlwidgets/lib"
+    script: chess.min.js
+  - name: chessboardjs
+    version: 0.3.0
+    src: "htmlwidgets/lib"
+    script: chessboard-0.3.0.min.js
+    stylesheet: chessboard-0.3.0.min.css
+  - name: chessboardjs.themes
+    version: 0.1
+    src: "htmlwidgets/lib"
+    script:
+      - chessboardjs.themes.js
+      - chessboardjs.themes.data.js
